@@ -1,0 +1,127 @@
+.main {
+  display: grid;
+  min-height: 522px;
+  justify-content: center;
+  background-image: url(/img/testRulesBG.png);
+  background-size: auto;
+  background-position: top center;
+  background-repeat: repeat;
+  padding: 27px 0 11px 0;
+}
+
+.main h1, .main h2 {
+  justify-self: center;
+}
+
+.main :nth-child(1){
+  max-width: 323px;
+  margin: 0;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  
+  color: #FFFFFF;
+}
+
+.main :nth-child(2){
+  max-width: 252px;
+  margin-top: 40;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFC700;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main :nth-child(4), .main :nth-child(5){
+  max-width: 286px;
+  margin: 0;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.main :nth-child(4) {
+  margin-top: 22px;
+  color: #FFC700;
+}
+
+.main :nth-child(5) {
+  color: #FFFFFF;
+ }
+
+.begin-test-btn {
+  width: 189px;
+  height: 41px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
+  border-radius: 20px;
+  border-color: transparent;
+  justify-self: center;
+  margin-top: 150px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  color: #0D0C11;
+}
+
+.more-btn {
+  margin-top: 11px;
+  display: flex;
+  flex-flow: column;
+  justify-self: center;
+}
+
+.more-btn img {
+  justify-self: center;
+  max-width: 16px;
+  max-height: 16px;
+  transition: transform .75s ease-in-out;
+}
+
+.more-btn img:hover {
+  transform: rotate(180deg);
+  transition: .75s ease-in-out;
+}
+
+.more-btn :nth-child(2) {
+  width: 68px;
+  height: 13px;
+
+  margin: 3px 0 0 0;
+
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}

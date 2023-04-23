@@ -1,0 +1,37 @@
+#menu {
+  background-color: #181818;
+  min-height: 100vh;
+  display: none;
+  padding-top: 64px;
+}
+
+#menu.open {
+  display: block;
+}
+
+.menu ul {
+  margin: 0;
+}
+
+.menu ul li {
+list-style-type: none;
+margin-bottom: 27px;
+}
+
+.menu ul li a{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: light;
+  font-size: 16px;
+  line-height: 22px;
+  line-height: 117%;
+  align-self: Left;
+  vertical-align: Top;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.menu ul li a:hover{
+  color: #F4CE0C;
+}

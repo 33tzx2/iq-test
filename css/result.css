@@ -1,0 +1,90 @@
+.result {
+  display: flex;
+  flex-flow: column;
+  min-height: 538px;
+  background-image: url(/img/lightLeft.png), url(/img/lightRight.png), url(/img/testRulesBG.png);
+  background-size: auto, auto, auto;
+  background-position: left 369px, right 369px, top center;
+  background-repeat: no-repeat, no-repeat, repeat;
+  padding: 18px 12px auto 18px;
+
+  font-family: 'PT Serif';
+  font-style: normal !important;
+  align-items: center !important;
+  color: #FFFFFF;
+  display: none;
+}
+
+.result :nth-child(1){
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.result :nth-child(2), .result :nth-child(2) u {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 303px;
+
+  text-align: center
+}
+
+.result :nth-child(3) {
+  color: #3BDE7C;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.result :nth-child(4) {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 14px;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  background: #1C2741;
+  border-radius: 6px;
+  padding: 15px 12px 10.81px 12px;
+  margin: 12px auto 2px auto;
+}
+
+.result :nth-child(5) {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #3BDE7C;
+  margin: 2px auto 6px auto;
+}
+
+.api-resp {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #3BDE7C;
+}
+
+.show-result {
+  display: flex !important;
+}

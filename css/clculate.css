@@ -1,0 +1,48 @@
+.calculating {
+  flex-flow: column;
+  max-height: 533px;
+  background-image: url(/img/testRulesBG.png);
+  background-size: auto;
+  background-position: top center;
+  background-repeat: repeat;
+  padding: 17px 22px;
+  font-family: 'PT Serif';
+  font-style: normal;
+  align-items: center;
+  color: #FFFFFF;
+
+  min-height: 538px;
+  display: none;
+}
+
+.calculating h2 {
+  font-weight: 400 !important;
+  margin-top: 49px;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.loader-img {
+  margin-top: 33px;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.loader-img {
+animation: spin 5s linear 0s infinite;
+}
+
+.calculating h3 {
+  font-weight: 400 !important;
+  margin-top: 28px;
+  max-width: 276px;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  padding: 0;
+}

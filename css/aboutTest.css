@@ -1,0 +1,44 @@
+.about-test {
+  display: flex;
+  flex-flow: column;
+  min-height: 339px;
+  justify-content: center;
+  background-image: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%), url(/img/aboutTestBG.png);
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 0 29px 0 24.35px;
+}
+
+.about-test img {
+  max-width: 23px;
+  max-height: 22.35px;
+}
+
+.about-test :nth-child(1) {
+  align-self: self-start;
+}
+
+.about-test :nth-child(2) {
+  min-height: 228px;
+  max-width: 248px;
+  margin-top: 17.35px;
+  margin-bottom: 0;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  /* or 128% */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
+  align-self: center;
+}
+
+.about-test :nth-child(3) {
+  align-self: self-end;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,16 @@
+.footer {
+  background-image: url(/img/testBG.png);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 9px;
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+  max-height: 150px;
+  overflow: hidden;
+}

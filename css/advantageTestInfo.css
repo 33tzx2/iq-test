@@ -1,0 +1,28 @@
+.advantages-test {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 22px 11px 40px 11px;
+}
+
+.advantages-test img{
+  margin-top: 22px
+ }
+
+.advantages-test button{
+ margin: 0
+}
+
+.advantages-test p {
+  max-width: 298px;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.05em;
+
+  color: #272727;
+}
